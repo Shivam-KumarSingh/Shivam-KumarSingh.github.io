@@ -135,6 +135,33 @@ nav {
         height: 150px;
         margin-top: 20px;
     }
+    .about .row .row3{
+        flex-direction: column;
+        margin-bottom:0px;
+    }
+    .row3 .contact-item:first-child{
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .row3 .contact-item:last-child{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+}
+@media(max-width:1024px)
+{
+    .about .row .row3{
+        flex-direction: column;
+        margin-bottom:0px;
+    }
+    .row3 .contact-item:first-child{
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .row3 .contact-item:last-child{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -426,6 +453,7 @@ nav {
 }
 .row3{
     display: flex;
+    max-width: 100%;
     justify-content:space-between;
     margin-top: 50px;
     align-items: center;
